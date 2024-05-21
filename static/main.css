@@ -1,0 +1,23 @@
+article{
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+}
+.logo-img{
+    background-color: tomato;
+    
+    flex: 5;
+    width: 100%;    
+}
+.button-group{
+    background-color: skyblue;
+
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.click-button{
+    width: 75%;
+}

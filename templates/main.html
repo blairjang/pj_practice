@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'main.css' %}">
+{%endblock%}
+{% block content %}
+<article>
+    <div class="logo-img">
+        로고 이미지 영역
+    </div>
+    <div class="button-group">
+        <button class="click-button">Sign to Text</button>
+        <button class="click-button">Text to Speach</button>
+    </div>
+</article>
+{% endblock %}
